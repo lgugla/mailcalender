@@ -1,0 +1,48 @@
+.meeting-wrapper{
+
+}
+.meeting-timming{
+    width: 200px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: top;
+}
+.meeting-timming li{
+    height: 120px;
+    text-align: right;
+    padding-right: 10px;
+    position: relative;
+}
+.meeting-timming li:after{
+    content: '';
+    position: absolute;
+    right: -12px;
+    top: 0;
+    border-top: 2px solid blue;
+    width: 14px;
+}
+.meeting-section{
+    display: inline-block;
+    vertical-align: top;
+    height: 1440px;
+    width: 600px;
+    border-left:3px solid blue;
+    border-bottom:3px solid blue;
+    position: relative;
+}
+.meeting-ele{
+    width: 600px;
+    background:skyblue;
+    box-sizing: border-box;
+    border:1px lightgray solid;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top:120px;
+    height: 120px;
+}
